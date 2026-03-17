@@ -13,8 +13,8 @@ class Settings(BaseSettings):
 
     # Google / Gemini
     GOOGLE_API_KEY: str = ""
-    GEMINI_LLM_MODEL: str = "gemini-2.0-flash"
-    GEMINI_EMBEDDING_MODEL: str = "models/text-embedding-004"
+    GEMINI_LLM_MODEL: str = "gemini-2.5-flash"
+    GEMINI_EMBEDDING_MODEL: str = "models/gemini-embedding-001"
 
     # CORS
     ALLOWED_ORIGINS: list[str] = ["*"]
